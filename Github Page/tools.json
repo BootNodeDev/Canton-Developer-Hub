@@ -1034,7 +1034,7 @@
     "maker": "DSRV",
     "type": "partner",
     "category": "Data & Indexing",
-    "desc": "Self-hosted web explorer for a single Canton participant's ledger that reads the JSON Ledger API v2 directly, so every view is scoped to the permissions of the selected Canton identity rather than to a network-wide index. Browses updates, active contract payloads, parties, Splice token holdings and transfer offers, and installed Daml-LF packages and templates, and ships a documented backend API with an OpenAPI document; authentication is per-user Browser OIDC or a backend-held shared identity.",
+    "desc": "Self-hosted explorer for a single Canton participant's ledger: it reads the JSON Ledger API v2 directly and keeps no index of its own, so every view is scoped to the selected Canton identity's permissions. Covers updates, contract payloads, parties, Splice token holdings, and installed Daml-LF packages, with a documented backend API and OpenAPI document.",
     "links": [
       { "label": "Repo", "url": "https://github.com/dsrvlabs/canton-lens" },
       { "label": "Docs", "url": "https://github.com/dsrvlabs/canton-lens/blob/main/docs/deployment.md" }
