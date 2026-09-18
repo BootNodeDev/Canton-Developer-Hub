@@ -1028,5 +1028,26 @@
     "maintained_by": "Walnut",
     "dev_fund": true,
     "last_updated": "2026-09-03"
+  },
+  {
+    "name": "canton-deploy",
+    "maker": "LYNC",
+    "type": "partner",
+    "category": "SDKs",
+    "desc": "Deploy Daml packages to a Canton validator from your project: build, upload, vet, allocate parties, onboard users, run scripts, and inspect what is on the ledger.",
+    "links": [
+      {
+        "label": "Docs",
+        "url": "https://docs.lync.world/docs/CANTON/deploy/canton-deploy"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/LYNC-WORLD/canton-deploy"
+      }
+    ],
+    "daml_sdk_version": null,
+    "maintained_by": "LYNC",
+    "dev_fund": true,
+    "last_updated": "2026-09-18"
   }
 ]
