@@ -1045,7 +1045,7 @@
         "url": "https://github.com/LYNC-WORLD/canton-deploy"
       }
     ],
-    "daml_sdk_version": 3.5,
+    "daml_sdk_version": "3.5+",
     "maintained_by": "LYNC",
     "dev_fund": true,
     "last_updated": "2026-09-18"
