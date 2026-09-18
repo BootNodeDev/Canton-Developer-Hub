@@ -1049,6 +1049,8 @@
     "maintained_by": "LYNC",
     "dev_fund": true,
     "last_updated": "2026-09-18"
+  },
+  {
     "name": "canton-stress",
     "maker": "dfrnw",
     "type": "partner",
@@ -1068,6 +1070,8 @@
     "maintained_by": "dfrnw",
     "dev_fund": false,
     "last_updated": "2026-09-05"
+  },
+  {
     "name": "Canton Lens",
     "maker": "DSRV",
     "type": "partner",
