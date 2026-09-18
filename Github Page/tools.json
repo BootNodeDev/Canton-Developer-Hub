@@ -1049,5 +1049,18 @@
     "maintained_by": "dfrnw",
     "dev_fund": false,
     "last_updated": "2026-09-05"
+    "name": "Canton Lens",
+    "maker": "DSRV",
+    "type": "partner",
+    "category": "Data & Indexing",
+    "desc": "Self-hosted explorer for a single Canton participant's ledger: it reads the JSON Ledger API v2 directly and keeps no index of its own, so every view is scoped to the selected Canton identity's permissions. Covers updates, contract payloads, parties, Splice token holdings, and installed Daml-LF packages, with a documented backend API and OpenAPI document.",
+    "links": [
+      { "label": "Repo", "url": "https://github.com/dsrvlabs/canton-lens" },
+      { "label": "Docs", "url": "https://github.com/dsrvlabs/canton-lens/blob/main/docs/deployment.md" }
+    ],
+    "daml_sdk_version": null,
+    "maintained_by": "DSRV",
+    "dev_fund": false,
+    "last_updated": "2026-09-14"
   }
 ]
