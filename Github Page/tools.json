@@ -1049,5 +1049,37 @@
     "maintained_by": "LYNC",
     "dev_fund": true,
     "last_updated": "2026-09-18"
+    "name": "canton-stress",
+    "maker": "dfrnw",
+    "type": "partner",
+    "category": "Smart Contract Dev",
+    "desc": "Load, performance and cost testing for Canton applications: point it at a DAR and it measures throughput, contention attributed to the contract that lost each race, and traffic cost per transaction. Needs no configuration for Token Standard registries, and generates a starting workload for any other Daml application.",
+    "links": [
+      {
+        "label": "Repo",
+        "url": "https://github.com/fronow/Canton-Stress-Test"
+      },
+      {
+        "label": "Benchmarks",
+        "url": "https://github.com/fronow/Canton-Stress-Test/blob/main/examples/openzeppelin/BENCHMARK.md"
+      }
+    ],
+    "daml_sdk_version": "3.4.11",
+    "maintained_by": "dfrnw",
+    "dev_fund": false,
+    "last_updated": "2026-09-05"
+    "name": "Canton Lens",
+    "maker": "DSRV",
+    "type": "partner",
+    "category": "Data & Indexing",
+    "desc": "Self-hosted explorer for a single Canton participant's ledger: it reads the JSON Ledger API v2 directly and keeps no index of its own, so every view is scoped to the selected Canton identity's permissions. Covers updates, contract payloads, parties, Splice token holdings, and installed Daml-LF packages, with a documented backend API and OpenAPI document.",
+    "links": [
+      { "label": "Repo", "url": "https://github.com/dsrvlabs/canton-lens" },
+      { "label": "Docs", "url": "https://github.com/dsrvlabs/canton-lens/blob/main/docs/deployment.md" }
+    ],
+    "daml_sdk_version": null,
+    "maintained_by": "DSRV",
+    "dev_fund": false,
+    "last_updated": "2026-09-14"
   }
 ]
