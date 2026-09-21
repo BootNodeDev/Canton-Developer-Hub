@@ -125,10 +125,6 @@ def generate_html(tools, by_category):
             badge_label = "Official" if ttype == "official" else "Partner tooling"
             links = t.get("links") or []
             link = html.escape(links[0]["url"]) if links else "#"
-            # The name already carries the first link. The rest were being
-            # dropped: 19 of the entries in tools.json declare more than one,
-            # and a tool whose demo, package or spec lives behind link two was
-            # listed with no way to reach it.
             extra = "".join(
                 f'<a href="{html.escape(l["url"])}" target="_blank" rel="noopener">'
                 f'{html.escape(l.get("label") or "Link")}</a>'
